@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='美多商城',active='home'">
+
+<head>
+    <meta charset="UTF-8">
+    <!--    <link rel="stylesheet" href="../css/bootstrap.css">-->
+    <title>Title</title>
+</head>
+<body>
+<form action="/a/uploadimg" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*">
+    <input type="submit" value="上传" class="btn btn-success">
+</form>
+<!--[[${filename}]]-->
+
+<input type="text" th:text="${session.uaccount}">
+<input type="text" th:text="${session.uname}">
+<h2>第一步：完成商品图片的上传</h2>
+<form method="get" action="/goods/imgtoinsertgoods">
+<input type="text" name="filename" th:value ="${filename}"></input>
+<br>
+<img th:src="@{${filename}}" alt="图片">
+<div th:if="${filename} ne null">
+    <input type="submit" value="下一步">
+</div>
+</form>
+
+
+</body>
+</html>

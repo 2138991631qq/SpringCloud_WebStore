@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway-service" />
+        <module name="common-module" />
+        <module name="goods-consumer" />
+        <module name="user-provider" />
+        <module name="admin-consumer" />
+        <module name="eureka-server" />
+        <module name="user-provider (1)" />
+        <module name="goods-provider" />
+        <module name="user-consumer (1)" />
+        <module name="admin-provider" />
+        <module name="user-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-consumer" target="1.8" />
+      <module name="admin-provider" target="1.8" />
+      <module name="common-module" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="gateway-service" target="1.8" />
+      <module name="goods-consumer" target="1.8" />
+      <module name="goods-provider" target="1.8" />
+      <module name="user-consumer" target="1.8" />
+      <module name="user-consumer (1)" target="1.8" />
+      <module name="user-provider" target="1.8" />
+      <module name="user-provider (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-consumer" options="-parameters" />
+      <module name="admin-provider" options="-parameters" />
+      <module name="common-module" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="goods-consumer" options="-parameters" />
+      <module name="goods-provider" options="-parameters" />
+      <module name="user-consumer" options="-parameters" />
+      <module name="user-consumer (1)" options="-parameters" />
+      <module name="user-provider" options="-parameters" />
+      <module name="user-provider (1)" options="-parameters" />
+    </option>
+  </component>
+</project>

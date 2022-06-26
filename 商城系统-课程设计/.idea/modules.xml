@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-consumer/admin-consumer.iml" filepath="$PROJECT_DIR$/admin-consumer/admin-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-provider/admin-provider.iml" filepath="$PROJECT_DIR$/admin-provider/admin-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-module/common-module.iml" filepath="$PROJECT_DIR$/common-module/common-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods-consumer/goods-consumer.iml" filepath="$PROJECT_DIR$/goods-consumer/goods-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods-provider/goods-provider.iml" filepath="$PROJECT_DIR$/goods-provider/goods-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-consumer/user-consumer.iml" filepath="$PROJECT_DIR$/user-consumer/user-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-consumer/user-consumer (1).iml" filepath="$PROJECT_DIR$/admin-consumer/user-consumer (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/user-provider/user-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-provider/user-provider (1).iml" filepath="$PROJECT_DIR$/admin-provider/user-provider (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/商城系统-课程设计.iml" filepath="$PROJECT_DIR$/.idea/商城系统-课程设计.iml" />
+    </modules>
+  </component>
+</project>
